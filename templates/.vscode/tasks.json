@@ -1,0 +1,11 @@
+{
+    "version": "0.1.0",
+    "command": "make",
+    "isShellCommand": true,
+    "args": [
+        "all",
+        "source=${fileBasenameNoExtension}",
+        "-s"
+    ],
+    "showOutput": "always"
+}
