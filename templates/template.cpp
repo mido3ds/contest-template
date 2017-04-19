@@ -27,6 +27,8 @@ using vd = vector<double>;
 #define dict unordered_map
 #define uset unordered_set
 #define endl '\n'
+#define in :
+#define auto auto&
 const int INF = 1 << 29;
 ///////////functions/////////////
 inline bool equal(const double& a, const double& b) { return fabs(a - b) < 1e-9; }
