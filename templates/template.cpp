@@ -20,6 +20,7 @@ typedef long long ll;
 #define vec vector
 #define vi vector<int>
 #define vd vector<double>
+#define dict unordered_map
 const int INF = 1 << 29;
 inline bool equal(const double& a, const double& b) { return fabs(a - b) < 1e-9; }
 inline int two(const int& n) { return 1 << n; }
