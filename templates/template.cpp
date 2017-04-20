@@ -86,6 +86,19 @@ ostream& operator<<(ostream& os, const set<T>& v)
     return os << "]";
 }
 
+template <typename T>
+ostream& operator<<(ostream& os, const uset<T>& v)
+{
+    os << "[";
+    typename uset<T>::const_iterator it;
+    for (it = v.begin(); it != v.end(); it++) {
+        if (it != v.begin())
+            os << ", ";
+        os << *it;
+    }
+    return os << "]";
+}
+
 template <typename F, typename S>
 ostream& operator<<(ostream& os, const map<F, S>& v)
 {
@@ -127,5 +140,7 @@ int main()
 
 void solution()
 {
+
+    ///////////////
     
 }
