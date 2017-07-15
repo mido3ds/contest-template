@@ -1,7 +1,7 @@
 source = a
 
 CC = g++
-cpp_ver = 11
+cpp_ver = 14
 
 CC_OPT = -std=c++$(cpp_ver)
 CC_OPT += -g
